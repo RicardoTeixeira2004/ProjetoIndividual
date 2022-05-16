@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "rings";
+    src: url("ProjetoIndividual\PROJETO\public\DAFONT\RINGS.TTF");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'rings';
+    background-color: black;
+  }
