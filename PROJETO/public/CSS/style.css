@@ -1,6 +1,6 @@
 @font-face {
     font-family: "rings";
-    src: url("ProjetoIndividual\PROJETO\public\DAFONT\RINGS.TTF");
+    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/rings.ttf");
 }
 
 body {
@@ -8,4 +8,42 @@ body {
     padding: 0;
     font-family: 'rings';
     background-color: black;
+    background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/telaInicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
   }
+
+      /* HEADER  */
+  
+      .header {
+        font-family: 'rings';
+        color: white;
+        background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+        background-size: fit-content;
+        
+      }
+      
+      .container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 10px solid white;
+        height: 80px;
+      }
+
+      .titulo {
+        text-align: center;
+        font-size: 50px;  
+      
+      }
+    
+        /* FIM DO  HEADER*/
+
+        
+        
+        
+    
+    
