@@ -1,49 +1,79 @@
 @font-face {
-    font-family: "rings";
-    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/rings.ttf");
+  font-family: "rings";
+  src: url("/ProjetoIndividual/PROJETO/public/DAFONT/rings.ttf");
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'rings';
-    background-color: black;
-    background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/telaInicio.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'rings';
+  background-color: black;
+}
 
-      /* HEADER  */
-  
-      .header {
-        font-family: 'rings';
-        color: white;
-        background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
-        background-size: fit-content;
-        
-      }
-      
-      .container {
-        width: 100%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border-bottom: 10px solid white;
-        height: 80px;
-      }
+/* HEADER  */
 
-      .titulo {
-        text-align: center;
-        font-size: 50px;  
-      
-      }
-    
-        /* FIM DO  HEADER*/
+.header {
+  font-family: 'rings';
+  color: blanchedalmond;
+  background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+  background-size: fit-content;
 
-        
-        
-        
-    
-    
+}
+
+.header .container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75px;
+}
+
+.header .titulo {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid blanchedalmond;
+}
+
+/* FIM DO HEADER*/
+
+/* BANNER  */
+
+.Banner {
+  height: 800px;
+  width: 100%vh;
+  color: white;
+  background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/telaInicio.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* FIM DO BANNER*/
+
+/* FOOTER */
+
+.footer {
+  font-family: 'rings';
+  color: blanchedalmond;
+  background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+  background-size: fit-content;
+}
+
+.footer .container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+  width: auto;
+
+}
+
+.footer .titulo {
+  text-align: center;
+  font-size: 25px;
+  border-top: 5px solid blanchedalmond;
+}
+
+/* FIM DO FOOTER */
