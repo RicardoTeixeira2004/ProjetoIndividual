@@ -22,7 +22,10 @@ body {
   background-color: #1a0400;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01950c1bf08f2667e24b81a97910df3526bf4106
   body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
   }
