@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "rings";
+    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/rings.ttf");
+}
+
+@font-face {
+    font-family: "basic";
+    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/basic.ttf");
+}
+
+@font-face {
+    font-family: "runes";
+    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/runes.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'rings';
+    background-color: black;
+    box-sizing: border-box;
+    background-color: #1a0400;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #31201E;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #D1BD97;
+    /* creates padding around scroll thumb */
+}
+
+
+/* HEADER  */
+
+.header {
+    font-family: 'rings';
+    color: #D1BD97;
+    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+    background-size: fit-content;
+    border-bottom: 5px solid #D1BD97;
+    text-shadow: 0 0 10px black;
+}
+
+.header .container {
+    color: #D1BD97;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.header .titulo {
+    text-align: left;
+    font-size: 50px;
+    text-decoration: none;
+    color: #D1BD97;
+}
+
+.container {
+    overflow: hidden;
+    background-color: rgb(32, 30, 30);
+    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+}
+
+.container a {
+    float: right;
+    color: #D1BD97;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.container a:hover {
+    opacity: 90%;
+    color: black;
+}
+
+.container a.active {
+    color: white;
+}
+
+
+/* FIM DO HEADER*/
+
+
+/* BANNER */
+
+.Banner {
+    height: auto;
+    width: auto;
+    background-color: #1a0400;
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 {
+    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/valfenda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s;
+}
+
+.desc1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+
+}
+
+.desc1 .b {
+    font-size: 80px;
+    text-decoration: none;
+    text-shadow: 0 0 10px black;
+}
+
+.imageBox:hover {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/ProjetoIndividual/PROJETO/public/ASSETS/valfenda.jpg");
+}
+
+.btn {
+    background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/btn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border-style: none;
+    height: 75px;
+    width: 270px;
+    font-family: 'rings';
+    color: #D1BD97;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    font-family: 'runes';
+    color: #D1BD97;
+    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+    background-size: fit-content;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 5px solid #D1BD97;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+}
+
+.footer .titulo {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* FIM DO FOOTER */

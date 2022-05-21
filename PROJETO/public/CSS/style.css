@@ -22,23 +22,23 @@ body {
   background-color: #1a0400;
 }
 
-<<<<<<< HEAD
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
 
-=======
->>>>>>> 01950c1bf08f2667e24b81a97910df3526bf4106
-  body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #31201E;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #D1BD97;  /* creates padding around scroll thumb */
-  }
+body::-webkit-scrollbar-track {
+  background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #31201E;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid #D1BD97;
+  /* creates padding around scroll thumb */
+}
 
 
 /* HEADER  */
@@ -85,7 +85,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   transition: transform .2s;
- 
+
 }
 
 .link {
@@ -97,13 +97,15 @@ body {
 
 
 .inicio:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("/ProjetoIndividual/PROJETO/public/ASSETS/realidade.jpg");
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/ProjetoIndividual/PROJETO/public/ASSETS/realidade.jpg");
 }
 
-.Banner .container{
+.Banner .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,15 +136,15 @@ body {
   justify-content: space-evenly;
 }
 
-.formulario .Campos{
+.formulario .Campos {
   padding-top: 100px;
   font-size: 50px;
-  color:  #D1BD97;
+  color: #D1BD97;
   font-weight: bold;
   text-shadow: 0 0 5px black;
 
 }
-  
+
 
 .formulario .tipo_campo {
   font-size: 25px;
