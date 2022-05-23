@@ -153,6 +153,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transform: 2s;
   }
   
   .card {
@@ -210,7 +211,17 @@
     font-size: 35px;
     text-shadow: 0 0 5px black;
     cursor: pointer;
+    transform: 2s;
   }
+
+  .container :hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+}
+
   
   /* FIM DO FORMULARIO*/
   
