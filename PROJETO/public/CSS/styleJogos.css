@@ -1,21 +1,21 @@
 @font-face {
     font-family: "rings";
-    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/rings.ttf");
+    src: url("../DAFONT/rings.ttf");
 }
 
 @font-face {
     font-family: "basic";
-    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/basic.ttf");
+    src: url("../DAFONT/basic.ttf");
 }
 
 @font-face {
     font-family: "runes";
-    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/runes.ttf");
+    src: url("../DAFONT/runes.ttf");
 }
 
 @font-face {
     font-family: "basic2";
-    src: url("/ProjetoIndividual/PROJETO/public/DAFONT/basic2.ttf");
+    src: url("../DAFONT/basic2.ttf");
 }
 
 body {
@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+    background: url("../ASSETS/texturaCouro.jpg");
 }
 
 body::-webkit-scrollbar-thumb {
@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
 .header {
     font-family: 'rings';
     color: #D1BD97;
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+    background: url("../ASSETS/dark-leather.png");
     background-size: fit-content;
     border-bottom: 5px solid #D1BD97;
     text-shadow: 0 0 10px black;
@@ -77,7 +77,7 @@ body::-webkit-scrollbar-thumb {
 .container {
     overflow: hidden;
     background-color: rgb(32, 30, 30);
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+    background: url("../ASSETS/dark-leather.png");
 }
 
 .container a {
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container1 {
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/valarAinur.jpg");
+    background: url("../ASSETS/valarAinur.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -144,7 +144,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container2 {
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/valinor.jpg");
+    background: url("../ASSETS/valinor.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -159,7 +159,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container3 {
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/sword.jpg");
+    background: url("../ASSETS/sword.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -177,17 +177,17 @@ body::-webkit-scrollbar-thumb {
 
 .imageBox:hover {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/ProjetoIndividual/PROJETO/public/ASSETS/valarAinur.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../ASSETS/valarAinur.jpg");
 }
 
 .imageBox2:hover {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/ProjetoIndividual/PROJETO/public/ASSETS/valinor.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../ASSETS/valinor.jpg");
 }
 
 .imageBox3:hover {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/ProjetoIndividual/PROJETO/public/ASSETS/sword.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../ASSETS/sword.jpg");
 }
 btn :hover {
     text-shadow: 0 0 15px black;
@@ -199,7 +199,7 @@ btn :hover {
 }
 
 .btn {
-    background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/btn.png");
+    background-image: url("../ASSETS/btn.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -223,7 +223,7 @@ btn :hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/rough-cloth.png");
+    background-image: url("../ASSETS/rough-cloth.png");
     background-size: auto;
     background-color: #1a0400;
     transform: 2s;
@@ -247,7 +247,7 @@ btn :hover {
 .footer {
     font-family: 'runes';
     color: #D1BD97;
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+    background: url("../ASSETS/dark-leather.png");
     background-size: fit-content;
     height: 5vh;
     display: flex;
@@ -257,7 +257,7 @@ btn :hover {
 }
 
 .footer .container {
-    background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+    background: url(".../ASSETS/dark-leather.png");
     background-color: #1a0400;
     display: flex;
     flex-direction: column;

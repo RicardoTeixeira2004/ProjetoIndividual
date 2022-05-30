@@ -1,16 +1,16 @@
 @font-face {
   font-family: "rings";
-  src: url("/ProjetoIndividual/PROJETO/public/DAFONT/rings.ttf");
+  src: url("../dafont/rings.ttf");
 }
 
 @font-face {
   font-family: "basic";
-  src: url("/ProjetoIndividual/PROJETO/public/DAFONT/basic.ttf");
+  src: url("../dafont/basic.ttf");
 }
 
 @font-face {
   font-family: "runes";
-  src: url("/ProjetoIndividual/PROJETO/public/DAFONT/runes.ttf");
+  src: url("../dafont/runes.ttf");
 }
 
 body {
@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: url("/ProjetoIndividual/PROJETO/public/ASSETS/texturaCouro.jpg");
+  background: url("../texturaCouro.jpg");
 }
 
 body::-webkit-scrollbar-thumb {
@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb {
 .header {
   font-family: 'rings';
   color: #D1BD97;
-  background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+  background: url("../assets/dark-leather.png");
   background-size: fit-content;
   border-bottom: 5px solid #D1BD97;
   text-shadow: 0 0 10px black;
@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb {
   height: 85vh;
   width: auto;
   color: white;
-  background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/realidade.jpg");
+  background-image: url("../assets/realidade.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -102,7 +102,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-transform: scale(1.5);
   /* Safari 3-8 */
   transform: scale(1.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/ProjetoIndividual/PROJETO/public/ASSETS/realidade.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../assets/realidade.jpg");
 }
 
 .Banner .container {
@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/frame.png");
+  background-image: url("../assets/frame.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -160,7 +160,7 @@ body::-webkit-scrollbar-thumb {
 
 input {
   margin-bottom: 10px;
-  background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+  background-image: url("../assets/dark-leather.png");
   background-color: #041814;
   border: 1px solid #D1BD97;
   padding: 15px;
@@ -172,7 +172,7 @@ input {
 }
 
 .formulario .btn {
-  background-image: url("/ProjetoIndividual/PROJETO/public/ASSETS/btn.png");
+  background-image: url("../assets/btn.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -197,7 +197,7 @@ input {
 .footer {
   font-family: 'runes';
   color: #D1BD97;
-  background: url("/ProjetoIndividual/PROJETO/public/ASSETS/dark-leather.png");
+  background: url("../assets/dark-leather.png");
   background-size: fit-content;
   height: 5vh;
   display: flex;
